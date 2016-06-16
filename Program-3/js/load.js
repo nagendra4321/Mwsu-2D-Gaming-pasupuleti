@@ -12,6 +12,9 @@ var loadState = {
         game.load.image('enemy', 'assets/enemy.png');
         game.load.image('coin', 'assets/coin.png');
         game.load.image('tileset', 'assets/tileset.png');
+        game.load.image('jumpButton', 'assets/jumpButton.png');
+        game.load.image('rightButton', 'assets/rightButton.png');
+        game.load.image('leftButton', 'assets/leftButton.png');
         game.load.tilemap('map', 'assets/map.json', null, Phaser.Tilemap.TILED_JSON);
         game.load.image('background', 'assets/background.png'); 
         game.load.image('pixel', 'assets/pixel.png');
